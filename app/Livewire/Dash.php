@@ -389,29 +389,31 @@ class Dash extends Component
             ->pluck('total', 'status');
     }
 
-    private function loadSalesPerMonth()
+    /**
+     * Ventas exitosas de los últimos 6 meses (incluido el actual), agrupadas por mes.
+     *
+     * La agrupación se hace en PHP para no depender de funciones de fecha propias
+     * de cada motor (DATE_FORMAT en MySQL, strftime en SQLite). Los meses sin
+     * ventas aparecen con 0 para que la gráfica no tenga huecos.
+     *
+     * @return Collection<int, array{mes: string, total_mes: int}>
+     */
+    private function loadSalesPerMonth(): Collection
     {
-        $effectiveUserId = $this->getEffectiveUserId();
+        $from = now()->subMonths(5)->startOfMonth();
 
-        $query = QuoteVersion::selectRaw(
-            "DATE_FORMAT(closed_at, '%Y-%m') as mes,
-             CAST(SUM(total) AS UNSIGNED) as total_mes"
-        )
-            ->where('closed_at', '>=', now()->subMonths(6))
-            ->where('status', 'exitosa');
+        $totalsByMonth = $this->scopedVersions()
+            ->where('status', QuoteVersion::STATUS_EXITOSA)
+            ->where('closed_at', '>=', $from)
+            ->get(['closed_at', 'total'])
+            ->groupBy(fn (QuoteVersion $version): string => $version->closed_at->format('Y-m'))
+            ->map(fn (Collection $versions): int => (int) round($versions->sum('total')));
 
-        if ($this->selectedCompanyId) {
-            $query->whereHas('quote', fn ($q) => $q->where('company_id', $this->selectedCompanyId)
-            );
-        }
+        return collect(range(0, 5))->map(function (int $offset) use ($from, $totalsByMonth): array {
+            $month = $from->copy()->addMonths($offset)->format('Y-m');
 
-        if ($effectiveUserId) {
-            $query->whereHas('quote', fn ($q) => $q->where('user_id', $effectiveUserId)
-            );
-        }
-
-        return $query->groupByRaw("DATE_FORMAT(closed_at, '%Y-%m')")
-            ->orderBy('mes')->get();
+            return ['mes' => $month, 'total_mes' => $totalsByMonth->get($month, 0)];
+        });
     }
 
     private function buildPipelineThisMonthQuery()

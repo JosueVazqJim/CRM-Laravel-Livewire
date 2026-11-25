@@ -246,7 +246,7 @@ php artisan test --compact
 php artisan test --compact --filter=LeadMergeService
 ```
 
-Los tests usan SQLite en memoria (`phpunit.xml`), no tocan la base de datos local. Hay pruebas de negocio para fusión de leads, filtros y catálogo de cotizaciones y cambio masivo de estado de seriales, además de las pruebas de autenticación y ajustes del starter kit.
+Los tests usan SQLite en memoria (`phpunit.xml`), no tocan la base de datos local. Hay pruebas de negocio para las métricas del dashboard (conversión, cotizaciones abiertas, ranking y ventas por mes), fusión de leads, filtros y catálogo de cotizaciones y cambio masivo de estado de seriales, además de las pruebas de autenticación y ajustes del starter kit.
 
 ---
 
