@@ -1,0 +1,30 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Culiacán",
+            "Navolato",
+            "Eldorado",
+            "Badiraguato",
+            "Cosalá",
+            "Mocorito",
+            "Guasave",
+            "Juan José Ríos",
+            "Ahome",
+            "Salvador Alvarado",
+            "Angostura",
+            "Choix",
+            "El Fuerte",
+            "Sinaloa",
+            "Mazatlán",
+            "Escuinapa",
+            "Concordia",
+            "Elota",
+            "Rosario",
+            "San Ignacio"
+        ]
+    }
+}

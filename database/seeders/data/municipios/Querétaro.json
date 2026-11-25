@@ -1,0 +1,28 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Querétaro",
+            "El Marqués",
+            "Colón",
+            "Pinal de Amoles",
+            "Jalpan de Serra",
+            "Landa de Matamoros",
+            "Arroyo Seco",
+            "Peñamiller",
+            "Cadereyta de Montes",
+            "San Joaquín",
+            "Tolimán",
+            "Ezequiel Montes",
+            "Pedro Escobedo",
+            "Tequisquiapan",
+            "San Juan del Río",
+            "Amealco de Bonfil",
+            "Corregidora",
+            "Huimilpan"
+        ]
+    }
+}

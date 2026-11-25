@@ -1,0 +1,17 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Mexicali",
+            "Tecate",
+            "San Felipe",
+            "Tijuana",
+            "Playas de Rosarito",
+            "Ensenada",
+            "San Quintín"
+        ]
+    }
+}

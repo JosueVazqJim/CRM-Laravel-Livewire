@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" role="img" aria-labelledby="title desc">
+  <title id="title">Name Company Here — versión blanca</title>
+  <desc id="desc">Logotipo geométrico abstracto con símbolo hexagonal, divisor vertical y texto Name Company Here.</desc>
+  <g fill="#FFFFFF">
+    <!-- Símbolo geométrico -->
+    <polygon points="145,79 174,130 145,181 113,134"/>
+    <polygon points="203,79 267,79 238,130 174,130"/>
+    <polygon points="238,130 296,130 327,184 268,184"/>
+    <polygon points="268,184 298,237 267,289 238,239"/>
+    <polygon points="174,239 238,239 209,289 145,289"/>
+    <polygon points="85,184 145,184 174,239 115,239"/>
+    <!-- Separador y nombre -->
+    <rect x="362" y="79" width="7" height="211"/>
+    <text x="407" y="128" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="400" letter-spacing="1">Name</text>
+    <text x="407" y="208" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="400" letter-spacing="1">Company</text>
+    <text x="407" y="289" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="400" letter-spacing="1">Here</text>
+  </g>
+</svg>

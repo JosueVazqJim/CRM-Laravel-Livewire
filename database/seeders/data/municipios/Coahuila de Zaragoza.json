@@ -1,0 +1,48 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Saltillo",
+            "Arteaga",
+            "Juárez",
+            "Progreso",
+            "Escobedo",
+            "San Buenaventura",
+            "Abasolo",
+            "Candela",
+            "Frontera",
+            "Monclova",
+            "Castaños",
+            "Ramos Arizpe",
+            "General Cepeda",
+            "Piedras Negras",
+            "Nava",
+            "Acuña",
+            "Múzquiz",
+            "Jiménez",
+            "Zaragoza",
+            "Morelos",
+            "Allende",
+            "Villa Unión",
+            "Guerrero",
+            "Hidalgo",
+            "Sabinas",
+            "San Juan de Sabinas",
+            "Torreón",
+            "Matamoros",
+            "Viesca",
+            "Ocampo",
+            "Nadadores",
+            "Sierra Mojada",
+            "Cuatro Ciénegas",
+            "Lamadrid",
+            "Sacramento",
+            "San Pedro",
+            "Francisco I. Madero",
+            "Parras"
+        ]
+    }
+}

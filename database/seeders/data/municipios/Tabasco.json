@@ -1,0 +1,27 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Centro",
+            "Jalpa de Méndez",
+            "Nacajuca",
+            "Comalcalco",
+            "Huimanguillo",
+            "Cárdenas",
+            "Paraíso",
+            "Cunduacán",
+            "Macuspana",
+            "Centla",
+            "Jonuta",
+            "Teapa",
+            "Jalapa",
+            "Tacotalpa",
+            "Tenosique",
+            "Balancán",
+            "Emiliano Zapata"
+        ]
+    }
+}

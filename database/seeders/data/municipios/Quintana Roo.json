@@ -1,0 +1,21 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Othón P. Blanco",
+            "Felipe Carrillo Puerto",
+            "Lázaro Cárdenas",
+            "Isla Mujeres",
+            "Benito Juárez",
+            "Puerto Morelos",
+            "Cozumel",
+            "Solidaridad",
+            "Tulum",
+            "José María Morelos",
+            "Bacalar"
+        ]
+    }
+}

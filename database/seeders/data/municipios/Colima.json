@@ -1,0 +1,20 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Colima",
+            "Tecomán",
+            "Manzanillo",
+            "Armería",
+            "Coquimatlán",
+            "Comala",
+            "Cuauhtémoc",
+            "Ixtlahuacán",
+            "Minatitlán",
+            "Villa de Álvarez"
+        ]
+    }
+}

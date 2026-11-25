@@ -1,0 +1,23 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Campeche",
+            "Carmen",
+            "Palizada",
+            "Candelaria",
+            "Escárcega",
+            "Champotón",
+            "Seybaplaya",
+            "Hopelchén",
+            "Calakmul",
+            "Tenabo",
+            "Hecelchakán",
+            "Calkiní",
+            "Dzitbalché"
+        ]
+    }
+}

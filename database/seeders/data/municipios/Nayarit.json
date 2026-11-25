@@ -1,0 +1,30 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Tepic",
+            "Tuxpan",
+            "Santiago Ixcuintla",
+            "Acaponeta",
+            "Tecuala",
+            "Huajicori",
+            "Del Nayar",
+            "La Yesca",
+            "Ruíz",
+            "Rosamorada",
+            "Compostela",
+            "Bahía de Banderas",
+            "San Blas",
+            "Xalisco",
+            "San Pedro Lagunillas",
+            "Santa María del Oro",
+            "Jala",
+            "Ahuacatlán",
+            "Ixtlán del Río",
+            "Amatlán de Cañas"
+        ]
+    }
+}

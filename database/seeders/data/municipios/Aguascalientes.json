@@ -1,0 +1,21 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Aguascalientes",
+            "San Francisco de los Romo",
+            "El Llano",
+            "Rincón de Romos",
+            "Cosío",
+            "San José de Gracia",
+            "Tepezalá",
+            "Pabellón de Arteaga",
+            "Asientos",
+            "Calvillo",
+            "Jesús María"
+        ]
+    }
+}

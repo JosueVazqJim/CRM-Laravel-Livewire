@@ -1,0 +1,46 @@
+
+{
+    "error": false,
+    "code_error": 0,
+    "error_message": null,
+    "response": {
+        "municipios": [
+            "Cuernavaca",
+            "Huitzilac",
+            "Tepoztlán",
+            "Tlalnepantla",
+            "Tlayacapan",
+            "Jiutepec",
+            "Temixco",
+            "Miacatlán",
+            "Coatetelco",
+            "Coatlán del Río",
+            "Tetecala",
+            "Mazatepec",
+            "Amacuzac",
+            "Puente de Ixtla",
+            "Xoxocotla",
+            "Ayala",
+            "Yautepec",
+            "Cuautla",
+            "Emiliano Zapata",
+            "Tlaltizapán de Zapata",
+            "Zacatepec",
+            "Xochitepec",
+            "Tetela del Volcán",
+            "Hueyapan",
+            "Yecapixtla",
+            "Totolapan",
+            "Atlatlahucan",
+            "Ocuituco",
+            "Temoac",
+            "Zacualpan de Amilpas",
+            "Jojutla",
+            "Tepalcingo",
+            "Jonacatepec de Leandro Valle",
+            "Axochiapan",
+            "Jantetelco",
+            "Tlaquiltenango"
+        ]
+    }
+}
